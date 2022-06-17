@@ -332,4 +332,14 @@ text-align: center;
     #photos {
         column-count: 2;
     }
+} 
+
+/*Sign Up Form*/
+
+.form-section {
+background: url('../image/formbg.jpeg');
+background-size: cover;
+background-position: center;
+height: 900px;
 }
+
