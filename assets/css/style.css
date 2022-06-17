@@ -276,6 +276,9 @@ footer {
     float: left;
     padding: 0;
  }
+ #times > div {
+    width: 100%;
+ }
   hr{
     display:none;
   }
