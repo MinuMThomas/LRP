@@ -36,20 +36,20 @@
             <h2>Let's get you signed up!</h2>
 
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="First_Name" placeholder="name" required>
+            <input type="text" id="fname" name="First_Name" placeholder="name" required class="text-input">
             <label for="lname">Lirst Name</label>
-            <input type="text" id="lname" name="Last_Name" placeholder="lastname" required>
+            <input type="text" id="lname" name="Last_Name" placeholder="lastname" required class="text-input"> 
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" placeholder="name@mail.com" required>
+            <input type="email" id="email" name="email_address" placeholder="name@mail.com" required class="text-input">
 
             <label for="road">Road</label>
-            <input id="road" name="running_preference" type="radio" required>
+            <input type="radio" id="road" name="running_preference" value="road" required>
             <label for="trail">Trail</label>
-            <input id="trail" name="running_preference" type="radio" required>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
             <label for="both">Both</label>
-            <input id="both" name="running_preference" type="radio" required>
-
-            <button type="submit" >Let's Run!"</button>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            
+            <input class="join-button" type="submit" value="Let's Run!">
 
 
         </form>
