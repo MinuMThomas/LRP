@@ -29,19 +29,19 @@
             </ul>
         </nav>
     </header>
+   
     <section class="form-section">
-
-        <form action="https://formdump.codeinstitute.net/" method="post">
-
-            <h2>Let's get you signed up!</h2>
-
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up!<i class="fas fa-heartbeat"></i></h2>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="First_Name" placeholder="name" required class="text-input">
-            <label for="lname">Lirst Name</label>
-            <input type="text" id="lname" name="Last_Name" placeholder="lastname" required class="text-input"> 
+            <input id="fname" name="first_name" type="text" required class="text-input">
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required class="text-input">
+            
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" placeholder="name@mail.com" required class="text-input">
-
+            <input type="email" id="email" name="email_address" required class="text-input">
+            
             <label for="road">Road</label>
             <input type="radio" id="road" name="running_preference" value="road" required>
             <label for="trail">Trail</label>
@@ -50,10 +50,12 @@
             <input type="radio" id="both" name="running_preference" value="both" required>
             
             <input class="join-button" type="submit" value="Let's Run!">
-
-
         </form>
     </section>
+
+
+
+
     <footer>
         <ul class="social-networks">
             <li>
